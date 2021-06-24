@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>2953052902</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\gpio\src\gpio.s</file>
+            <file>$PROJ_DIR$\..\gpio2\src\gpio2.s</file>
+            <file>$PROJ_DIR$\..\uart2\src\uart2.s</file>
+            <file>$PROJ_DIR$\..\uart\src\uart.s</file>
+            <file>$PROJ_DIR$\..\gpio_int\src\gpio_int.s</file>
+            <file>$PROJ_DIR$\..\gpio_int\src\startup_TM4C129E.s</file>
+        </outputs>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
